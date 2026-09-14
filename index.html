@@ -137,6 +137,7 @@ nav{position:sticky;top:0;background:rgba(255,255,255,.94);backdrop-filter:blur(
     <h2>포트폴리오</h2>
     <p class="desc">실제 업무에서 작성한 보고서와 운영 결과물을 중심으로 구성했습니다. 특히 무역회사 인턴 기간의 시장조사 보고서를 주요 작업물로 배치했습니다.</p>
     
+    <!-- PROJECT 01 -->
     <div class="project">
       <div class="projecthead">
         <div>
@@ -151,12 +152,13 @@ nav{position:sticky;top:0;background:rgba(255,255,255,.94);backdrop-filter:blur(
         <img src="ai_glasses_contents.png" alt="AI 안경 내용">
       </div>
       <div class="caption">중국 AI 안경 시장 및 주요 브랜드를 조사하고 비교 자료로 정리한 실제 보고서입니다.</div>
-      <details class="preview" open>
-        <summary>보고서 미리보기</summary>
-        <iframe src="china-ai-glasses-market-research.html" title="중국 AI 안경 조사 보고서"></iframe>
-      </details>
+      <div class="linkbox">
+        <strong>📄 보고서 전체보기</strong><br>
+        <a href="china-ai-glasses-market-research.html" target="_blank">새 창에서 중국 AI 안경 조사 보고서 열기 ↗</a>
+      </div>
     </div>
 
+    <!-- PROJECT 02 -->
     <div class="project">
       <div class="projecthead">
         <div>
@@ -171,12 +173,13 @@ nav{position:sticky;top:0;background:rgba(255,255,255,.94);backdrop-filter:blur(
         <img src="hidden_bed_2.png" alt="히든 베드 2">
       </div>
       <div class="caption">제품 구조, 설치 전 확인사항, 수동·자동 가격 조사 등 업무 목적에 맞춰 자료를 구조화했습니다.</div>
-      <details class="preview" open>
-        <summary>보고서 미리보기</summary>
-        <iframe src="hidden-bed-market-research.html" title="히든 베드 중국 시장 조사 보고서"></iframe>
-      </details>
+      <div class="linkbox">
+        <strong>📄 보고서 전체보기</strong><br>
+        <a href="hidden-bed-market-research.html" target="_blank">새 창에서 히든 베드 중국 시장 조사 보고서 열기 ↗</a>
+      </div>
     </div>
 
+    <!-- PROJECT 03 -->
     <div class="project">
       <div class="projecthead">
         <div>
@@ -193,6 +196,7 @@ nav{position:sticky;top:0;background:rgba(255,255,255,.94);backdrop-filter:blur(
       </details>
     </div>
 
+    <!-- PROJECT 04 -->
     <div class="project">
       <div class="projecthead">
         <div>
@@ -207,6 +211,7 @@ nav{position:sticky;top:0;background:rgba(255,255,255,.94);backdrop-filter:blur(
       </div>
     </div>
 
+    <!-- PROJECT 05 (上下两行结构) -->
     <div class="project">
       <div class="projecthead">
         <div>
@@ -215,28 +220,32 @@ nav{position:sticky;top:0;background:rgba(255,255,255,.94);backdrop-filter:blur(
           <div class="roleline">논문 모집 → 심사 진행 → 발행 · 학술회 준비/현장 운영</div>
         </div>
       </div>
-      <div class="grid2">
-        <div class="card">
-          <h3>Publication</h3>
-          <p class="small">근무 기간 발행: 『중앙사론』 제60·61·62집<br>모집 공고 · 투고 시스템 · 심사 연락 · 결과 고지 · 인쇄/제본/발송</p>
-          <div class="issue-covers">
-            <figure class="issue-cover"><img src="chungang-saron-60.png" alt="중앙사론 제60집"><figcaption>『중앙사론』 제60집</figcaption></figure>
-            <figure class="issue-cover"><img src="chungang-saron-61.png" alt="중앙사론 제61집"><figcaption>『중앙사론』 제61집</figcaption></figure>
-            <figure class="issue-cover"><img src="chungang-saron-62.png" alt="중앙사론 제62집"><figcaption>『중앙사론』 제62집</figcaption></figure>
-          </div>
-        </div>
-        <div class="card">
-          <h3>Event</h3>
-          <p class="small">다과 구매 · 장소 준비 · 현수막 제작 · 발표논문 제본 · 만찬 예약</p>
+      
+      <!-- 第一行：Publication + 3本书图片 -->
+      <div class="card" style="margin-top: 22px;">
+        <h3>Publication</h3>
+        <p class="small">근무 기간 발행: 『중앙사론』 제60·61·62집<br>모집 공고 · 투고 시스템 · 심사 연락 · 결과 고지 · 인쇄/제본/발송</p>
+        <div class="issue-covers">
+          <figure class="issue-cover"><img src="chungang-saron-60.png" alt="중앙사론 제60집"><figcaption>『중앙사론』 제60집</figcaption></figure>
+          <figure class="issue-cover"><img src="chungang-saron-61.png" alt="중앙사론 제61집"><figcaption>『중앙사론』 제61집</figcaption></figure>
+          <figure class="issue-cover"><img src="chungang-saron-62.png" alt="중앙사론 제62집"><figcaption>『중앙사론』 제62집</figcaption></figure>
         </div>
       </div>
-      <img src="academic-conference-banner-result.png" alt="학술회 현수막">
-      <div class="caption">학술회 현수막 제작 결과</div>
-      <div class="linkbox">
+
+      <!-- 第二行：Event + 横幅图片 -->
+      <div class="card" style="margin-top: 20px;">
+        <h3>Event</h3>
+        <p class="small">다과 구매 · 장소 준비 · 현수막 제작 · 발표논문 제본 · 만찬 예약</p>
+        <img src="academic-conference-banner-result.png" alt="학술회 현수막" style="margin-top: 15px;">
+        <div class="caption" style="margin-top: 8px;">학술회 현수막 제작 결과</div>
+      </div>
+
+      <div class="linkbox" style="margin-top: 20px;">
         <strong>공식 사이트</strong><br><a href="http://kyobo043.medone.co.kr/html/" target="_blank">『중앙사론』 홈페이지 ↗</a>
       </div>
     </div>
 
+    <!-- VIDEO PORTFOLIO -->
     <div class="project">
       <div class="projecthead">
         <div>
